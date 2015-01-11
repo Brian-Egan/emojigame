@@ -1,0 +1,14 @@
+
+# VARIABLES
+# A method is called in the app_delegate which extracts the non-relevant environment vars from the resulting hash
+
+font: "HelveticaNeue"
+font_medium: "HelveticaNeue-Medium"
+font_light: "HelveticaNeue-Light"
+font_thin: "HelveticaNeue-Thin"
+font_ultralight: "HelveticaNeue-UltraLight"
+font_bold: "HelveticaNeue-Bold"
+development:
+    api_server: "http://localhost:3000/api"
+production:
+    api_server: "http://beta.titlepool.com/api"
